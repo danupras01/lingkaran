@@ -1,0 +1,37 @@
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;.:: Hasil Perhitungan Luas Segi Tiga ::.&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;font face=verdana&gt;
+&lt;center&gt;
+&lt;h3&gt;&lt;u&gt;Luas Segitiga&lt;/u&gt;&lt;/h3&gt;
+&lt;/center&gt;
+&lt;form action=contoh2_4.php method=post&gt;
+&lt;?
+$luas=0.5*$alas*$tinggi;
+echo &quot;&lt;table align=center bgcolor=#cedadc bordercolor=#cfdbdd
+cellpadding=0&gt;&quot;;
+echo &quot;&lt;tr&gt;&quot;;
+echo &quot;&lt;td&gt;Alas&lt;/td&gt;&quot;;
+echo &quot;&lt;td&gt;:&lt;/td&gt;&quot;;
+echo &quot;&lt;td&gt;$alas&lt;/td&gt;&quot;;
+echo &quot;&lt;/tr&gt;&quot;;
+echo &quot;&lt;tr&gt;&quot;;
+echo &quot;&lt;td&gt;Tinggi&lt;/td&gt;&quot;;
+echo &quot;&lt;td&gt;:&lt;/td&gt;&quot;;
+echo &quot;&lt;td&gt;$tinggi&lt;/td&gt;&quot;;
+echo &quot;&lt;/tr&gt;&quot;;
+echo &quot;&lt;tr&gt;&quot;;
+echo &quot;&lt;td&gt;Luas Segi Tiga&lt;/td&gt;&quot;;
+echo &quot;&lt;td&gt;:&lt;/td&gt;&quot;;
+echo &quot;&lt;td&gt;$luas&lt;/td&gt;&quot;;
+echo &quot;&lt;/tr&gt;&quot;;
+echo &quot;&lt;tr&gt;&quot;;
+echo &quot;&lt;td colspan=3 align=center&gt;&lt;input type=submit value=ulang&gt;&lt;/td&gt;&quot;;
+echo &quot;&lt;/tr&gt;&quot;;
+echo &quot;&lt;/table&gt;&quot;;
+?&gt;
+&lt;/form&gt;
+&lt;/body&gt;
+&lt;/html&gt;
